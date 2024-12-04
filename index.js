@@ -74,12 +74,29 @@ else{
  
 // Sample numbers : 3, -7, 2
 // Output : The sign is -
- 
+ const one = 3;
+ const two = -7;
+ const three = 2;
+ if (one+two+three>0){
+    console.log("positive");
+ } else {
+    console.log("Negative")
+ }
 // Exercise 5
  
 // Choose the correct comparison operator to console.log true, when x is greater than y.
 // Choose the correct comparison operator to console.log false, when x is equal to y.
 // Choose the correct comparison operator to console.log not sure, when x is NOT equal to y.
+const x = 6
+const y = 9
+
+if (x>y){
+    console.log("True")}
+else if (x===y){
+    console.log("False")}
+else{
+console.log("Not sure")}
+
  
 // Exercise 6
  
@@ -88,13 +105,32 @@ else{
 //   - takes 1 variable, a number score.
 //   - returns a grade for the score, either "A", "B", "C", "D", or "F".
 // - Call that if/else statement for a few different scores and log the result to make sure it works.
- 
+const grade = 70
+if (60>grade){
+    console.log("F");
+}
+else if (60<=grade && 69>=grade){
+console.log("D");
+}
+else if (70<=grade && 79>=grade){
+    console.log("C");
+}
+else if (80<=grade && 89>=grade){
+    console.log("B");
+}
+else{
+    console.log("A");
+}
 // Exercise 10 j
 // Write If statement that takes string
 //     if string length is more than 10 print the string  has more than 10 characters
 //      if string length is more than 5 return the string has more than 5 characters
 //       if string length is less than 1 return the string has nothing
 //       if string length is equal to 1 return the string has 1 character
+const text = "Travis";
+if (10<text.length){
+console.log("More than 10")
+}
 // Exercise 7 j
  
 //  3) Write conditional expressions to satisfy the following safety rules:
